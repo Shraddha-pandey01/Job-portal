@@ -1,0 +1,12 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "Job Portal Application",
+  "scripts": {
+    "dev": "node run-dev.js",
+    "install:all": "npm install --prefix client && npm install --prefix server"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
